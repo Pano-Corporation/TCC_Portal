@@ -1,0 +1,24 @@
+
+:root {
+    /* COLORS */
+    --primary-color: #3498db; 
+    --secondary-color: #2ecc71; 
+
+    /* FONTS */
+    --primary-font: 'Arial', sans-serif; 
+    --secondary-font: 'Courier New', monospace; 
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--secondary-font);
+}
+
+#student_details b, #semester_details b {
+    color: var(--secondary-color);
+}
+
